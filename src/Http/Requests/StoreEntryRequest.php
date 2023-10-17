@@ -1,6 +1,6 @@
 <?php
 
-namespace Kalizi\LaravelSpyhole\Http\Requests;
+namespace Faanigee\LaravelSpyhole\Http\Requests;
 
 use Illuminate\Foundation\Http\FormRequest;
 
