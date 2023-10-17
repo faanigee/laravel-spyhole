@@ -2,7 +2,7 @@
     "name": "faanigee/laravel-spyhole",
     "description": "Laravel package to record and re-watch user sessions",
     "keywords": [
-        "kalizi",
+        "faanigee",
         "laravel-spyhole"
     ],
     "homepage": "https://github.com/faanigee/laravel-spyhole",
@@ -10,8 +10,8 @@
     "type": "library",
     "authors": [
         {
-            "name": "Andrea Bondì",
-            "email": "me@kalizi.dev",
+            "name": "Irfan Ahmad",
+            "email": "admin@irfanahmad.net",
             "role": "Developer"
         }
     ],
@@ -29,12 +29,12 @@
     },
     "autoload": {
         "psr-4": {
-            "faanigee\\LaravelSpyhole\\": "src"
+            "Faanigee\\LaravelSpyhole\\": "src"
         }
     },
     "autoload-dev": {
         "psr-4": {
-            "faanigee\\LaravelSpyhole\\Tests\\": "tests"
+            "Faanigee\\LaravelSpyhole\\Tests\\": "tests"
         }
     },
     "config": {
