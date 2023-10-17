@@ -1,6 +1,6 @@
 <?php
 
-namespace Kalizi\LaravelSpyhole;
+namespace Faanigee\LaravelSpyhole;
 
 use Illuminate\Support\ServiceProvider;
 
