@@ -1,13 +1,13 @@
 <?php
 
-namespace Kalizi\LaravelSpyhole\Tests\Http;
+namespace Faanigee\LaravelSpyhole\Tests\Http;
 
 use Illuminate\Contracts\Auth\Authenticatable;
 use Illuminate\Http\Request;
 use Illuminate\Support\Facades\Auth;
 use Illuminate\Support\Str;
-use Kalizi\LaravelSpyhole\Models\SessionRecording;
-use Kalizi\LaravelSpyhole\Tests\TestCase;
+use Faanigee\LaravelSpyhole\Models\SessionRecording;
+use Faanigee\LaravelSpyhole\Tests\TestCase;
 
 class StoreTest extends TestCase
 {
