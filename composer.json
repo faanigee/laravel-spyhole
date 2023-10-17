@@ -1,11 +1,11 @@
 {
-    "name": "kalizi/laravel-spyhole",
+    "name": "faanigee/laravel-spyhole",
     "description": "Laravel package to record and re-watch user sessions",
     "keywords": [
         "kalizi",
         "laravel-spyhole"
     ],
-    "homepage": "https://github.com/kalizi/laravel-spyhole",
+    "homepage": "https://github.com/faanigee/laravel-spyhole",
     "license": "MIT",
     "type": "library",
     "authors": [
@@ -29,12 +29,12 @@
     },
     "autoload": {
         "psr-4": {
-            "Kalizi\\LaravelSpyhole\\": "src"
+            "faanigee\\LaravelSpyhole\\": "src"
         }
     },
     "autoload-dev": {
         "psr-4": {
-            "Kalizi\\LaravelSpyhole\\Tests\\": "tests"
+            "faanigee\\LaravelSpyhole\\Tests\\": "tests"
         }
     },
     "config": {
@@ -43,10 +43,10 @@
     "extra": {
         "laravel": {
             "providers": [
-                "Kalizi\\LaravelSpyhole\\LaravelSpyholeServiceProvider"
+                "Faanigee\\LaravelSpyhole\\LaravelSpyholeServiceProvider"
             ],
             "aliases": {
-                "LaravelSpyhole": "Kalizi\\LaravelSpyhole\\LaravelSpyholeFacade"
+                "LaravelSpyhole": "Faanigee\\LaravelSpyhole\\LaravelSpyholeFacade"
             }
         }
     },
