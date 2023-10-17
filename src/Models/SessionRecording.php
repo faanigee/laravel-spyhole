@@ -1,6 +1,6 @@
 <?php
 
-namespace Kalizi\LaravelSpyhole\Models;
+namespace Faanigee\LaravelSpyhole\Models;
 
 use Illuminate\Database\Eloquent\Model;
 
