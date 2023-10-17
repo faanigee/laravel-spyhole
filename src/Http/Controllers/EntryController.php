@@ -6,8 +6,8 @@ use Illuminate\Http\JsonResponse;
 use Illuminate\Routing\Controller;
 use Illuminate\Support\Facades\Auth;
 use Illuminate\Support\Str;
-use Kalizi\LaravelSpyhole\Http\Requests\StoreEntryRequest;
-use Kalizi\LaravelSpyhole\Models\SessionRecording;
+use Faanigee\LaravelSpyhole\Http\Requests\StoreEntryRequest;
+use Faanigee\LaravelSpyhole\Models\SessionRecording;
 use Symfony\Component\HttpKernel\Exception\NotAcceptableHttpException;
 
 class EntryController extends Controller
