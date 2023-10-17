@@ -16,7 +16,7 @@ Laravel Spyhole is a user session recorder for the Laravel Framework. Laravel Sp
 You can install the package via composer:
 
 ```bash
-composer require kalizi/laravel-spyhole
+composer require faanigee/laravel-spyhole
 ```
 
 ## Usage
@@ -24,7 +24,7 @@ composer require kalizi/laravel-spyhole
 After installation publish the config file:
 
 ``` php
-php artisan vendor:publish --provider="Kalizi\LaravelSpyhole\LaravelSpyholeServiceProvider"
+php artisan vendor:publish --provider="Faanigee\LaravelSpyhole\LaravelSpyholeServiceProvider"
 ```
 
 In the configuration file you can set:
